@@ -1,0 +1,6 @@
+gcc nbody_hamsp_omp_justFreeFall_mod.c -fopenmp -lm -o hs_fis
+
+mcli -C ~/.mcli cp nbody_hamsp_omp_justFreeFall_mod.c gridunam/nbody/ 
+mcli -C ~/.mcli cp halosatebh.ascii gridunam/nbody/
+mcli -C ~/.mcli cp parametros.h gridunam/nbody/
+mcli -C ~/.mcli cp nbody_hamsp_omp_justFreeFall_mod.c gridunam/nbody/
